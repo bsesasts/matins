@@ -5,4 +5,4 @@ matlab Instance
 
 - %--fft频谱泄漏特殊事例，恰好采样到零点sl：Spectrum leakage--%
 
-![特殊的频谱泄漏](F:\GitHubclone\filetmp\特殊的频谱泄漏.png)
+![特殊的频谱泄漏](F:\GitHubclone\matins\FFT SL\特殊的频谱泄漏.png)
