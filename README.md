@@ -16,6 +16,12 @@
 
 3. **fftaddzeros.m** FFT补零不能够提高分辨率，增加数据时长可以
 
+## random signal
+
+> 随机信号相关处理*/Rsignal/* *
+
+1. **x_hilbert.m**信号的希尔伯特变换
+
 ## antenna
 
 > 天线相关，方向图的设计类 */Antenna/* *
