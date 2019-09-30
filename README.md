@@ -4,6 +4,14 @@ matlab Instance
 
 > 注，与事例同英文名称图片为该示例的图
 
+### MATLAB USE
+
+> matlab常用方法总结
+
+*/MATS/* *
+
+1. **doublex.m**双坐标轴
+
 ### FFT Spectrum leakage 
 
 > sl：Spectrum leakage
