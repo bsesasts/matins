@@ -1,0 +1,34 @@
+clc;clear all;close all;
+sita=meshgrid(eps:pi/180:pi); 
+fai=meshgrid(eps:2*pi/180:2*pi)'; 
+sf1 = abs(cos(pi./2 .* cos(sita)));
+sf2 = abs(sf1./cos(sita));
+sf3 = abs(sf2);
+sfmax = max(sf3);
+sf4 = sf3./sfmax;
+f=abs(sin(sita)); 
+fmax=max(max(f));  
+w=0.5.*pi.*sin(sita) ;
+k=cos(w)./cos(sita) ;
+k1=abs(k) ;
+w1=0.25.*pi.*(1-cos(sita)) ;
+w2=cos(w1) ;
+w3=abs(w2) ;
+m=k1.*w3 ;
+l=1;
+f5=abs(cos(pi./2 .* sin(sita)) .* cos((pi ./4 .* (1-cos(sita))))) ./ cos(sita);
+f6=abs(cos(2*pi*l*cos(sita))-cos(2*pi*l))./abs(sin(sita)+eps);
+lamda = 1000;%波长
+K = 2.*pi./lamda;
+L = lamda./(1./1);%臂长
+f1 = 1./(1-cos(K.*L));
+f2 = abs((cos(K.*L.*cos(sita))-cos(K.*L)))./abs(sin(sita)+eps);
+f2max = max(abs(f2));
+f2gui = f2./f2max;
+rho = abs(f1)*abs(f2);
+rhab = abs(rho);
+%[x,y,z]=sph2cart(fai,pi/2-sita,f/fmax);
+[x,y,z]=sph2cart(fai,pi/2-sita,f2); 
+subplot(1,1,1),mesh(x,y,z);  
+%axis([-1 1 -1 1 -1 1]);
+title('电基本振子空间立体方向图');
