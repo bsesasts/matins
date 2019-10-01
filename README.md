@@ -3,6 +3,7 @@
 > matlab常用方法总结*/MATS/* *
 
 1. **doublex.m**双坐标轴
+2. **multilegend.m**多legend的快速创建
 
 ## FFT
 
