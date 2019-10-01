@@ -21,13 +21,13 @@ for	n=1:length(alpha)
     xt(n,:)=sinc(pi*t/Ts).*(cos(alpha(n)*pi*t/Ts))./(1-4*alpha(n)^2*t.^2/Ts^2+eps);
 end
 figure(1);
-subplot(211);
+subplot(211);hold on;grid on;
 plot(f,Xf);
 axis([-1 1 0 1.2]);
 xlabel('f/Ts');
 ylabel('ÉıÓàÏÒ¹ö½µÆµÆ×');
 legend(regexp(num2str(alpha), '\s+', 'split'));
-subplot(212);
+subplot(212);hold on;grid on;
 plot(t,xt);
 axis([-10 10 -0.5 1.1]);
 xlabel('t');ylabel('ÉıÓàÏÒ¹ö½µ²¨ĞÎ');
