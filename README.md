@@ -5,6 +5,13 @@
 1. **doublex.m**双坐标轴
 2. **multilegend.m**多legend的快速创建
 
+## matrix
+
+> 矩阵变换 */Matrix/* 
+
+1. **lineartum.m**：旋转、shear、其他...  [R](https://www.bilibili.com/video/av6043439/?spm_id_from=trigger_reload)
+2. 
+
 ## FFT
 
 > FFT使用以及相关讨论*/FFT/* *
