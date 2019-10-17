@@ -10,7 +10,12 @@
 > 矩阵变换 */Matrix/* 
 
 1. **lineartum.m**：旋转、shear、其他...  [R](https://www.bilibili.com/video/av6043439/?spm_id_from=trigger_reload)
-2. 
+
+## Geometric
+
+> 几何绘图/*Geometric*/*
+
+1. **$ph.m$** :绘制平行六面体
 
 ## FFT
 
