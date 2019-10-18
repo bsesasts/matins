@@ -35,6 +35,12 @@
 
 1. **x_hilbert.m**信号的希尔伯特变换
 
+## SignalProcessing
+
+> 信号处理实例以及集成函数/$SignalProcessing$/*
+>
+> cor2corm.m：将相关函数扩展为相关函数矩阵
+
 ## communicate
 
 > 通信相关 */communicate/* *
