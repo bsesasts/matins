@@ -15,7 +15,7 @@
 
 > 几何绘图/*Geometric*/*
 
-1. **$ph.m$** :绘制平行六面体
+1. **ph.m​** :绘制平行六面体
 
 ## FFT
 
@@ -38,8 +38,10 @@
 ## SignalProcessing
 
 > 信号处理实例以及集成函数/$SignalProcessing$/*
->
-> cor2corm.m：将相关函数扩展为相关函数矩阵
+
+1. **cor2corm.m**：将相关函数扩展为相关函数矩阵
+2. **lfm1.m**：线性调频信号的压缩比参数验证
+3. **lfm2.m**：线性调频信号$stretch$处理
 
 ## communicate
 
